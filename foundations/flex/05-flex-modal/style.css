@@ -67,3 +67,22 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+.parent-container{
+  display: flex;
+  gap: 20px;
+}
+
+.question-and-close{
+  display: flex;
+  justify-content: space-between;
+}
+
+.body-text-content{
+
+}
+
+.buttons{
+  display: flex;
+  gap: 20px;
+}
