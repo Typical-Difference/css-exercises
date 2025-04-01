@@ -19,6 +19,7 @@ body {
   background: white;
   width: 480px;
   border-radius: 10px;
+  padding: 20px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
@@ -27,8 +28,8 @@ body {
   font-size: 26px;
   font-weight: 700;
   background: lavender;
-  width: 42px;
-  height: 42px;
+  width: 35%;
+  height: 20%;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -71,18 +72,24 @@ button.cancel {
 .parent-container{
   display: flex;
   gap: 20px;
+  justify-content: space-evenly;
 }
 
 .question-and-close{
   display: flex;
+  font-weight: bold;
   justify-content: space-between;
+  gap: 50px;
 }
 
-.body-text-content{
 
+
+.body-text-content{
+  margin-top: 10px;
 }
 
 .buttons{
+  margin-top: 10px;
   display: flex;
   gap: 20px;
 }
