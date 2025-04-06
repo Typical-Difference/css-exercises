@@ -32,31 +32,32 @@ input {
   justify-content: space-between;
 }
 
-.header, .left-links{
+.header .left-links{
   padding-left: 10px;
 }
 
-.header, .right-links{
+.header .right-links{
   padding-right: 10px;
 }
 
 .footer-container{
   display: flex;
   flex-direction: column;
-  background-color: #eee;
 }
 
 .footer{
   flex: 1;
   display: flex;
   justify-content: space-between;
+  background-color: #eee;
+  margin-top: 400px;
 }
 
-.footer, .left-links{
+.footer .left-links{
   padding-left: 10px;
 }
 
-.footer, .right-links{
+.footer .right-links{
   padding-right: 10px;
 }
 
@@ -88,3 +89,4 @@ li, a{
   text-decoration-color: none;
   color: inherit;
 }
+
